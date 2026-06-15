@@ -1,64 +1,158 @@
-🎂 Kalkulator Usia
+# 🎂 Hitung Umur
 
-Aplikasi kalkulator usia yang dibuat menggunakan Python dan Web Technology (HTML, CSS, JavaScript) untuk menghitung umur berdasarkan tanggal lahir yang dimasukkan pengguna.
+Aplikasi sederhana untuk menghitung umur berdasarkan tanggal lahir menggunakan **Python** dan **HTML/CSS/JavaScript**.
 
 Proyek ini tersedia dalam dua versi:
 
-- 🐍 Versi Python (CLI) — berjalan di Terminal/Command Line.
-- 🌐 Versi Web — berjalan langsung di browser dengan tampilan modern dan interaktif.
+* 🐍 **Versi Python Console** (`main.py`)
+* 🌐 **Versi Web** (`index.html`)
 
 ---
 
-✨ Fitur Utama
+## 🚀 Demo Repository
 
-Versi Python
+GitHub Repository:
 
-- Input tanggal lahir.
-- Menampilkan tanggal lahir pengguna.
-- Menampilkan hari lahir.
-- Menampilkan bulan lahir.
-- Menghitung umur dalam hari.
-- Menghitung umur dalam tahun.
-- Tampilan terminal berwarna menggunakan ANSI Escape Code.
-
-Versi Web
-
-- Antarmuka modern dan responsif.
-- Validasi input otomatis.
-- Menampilkan pesan error yang informatif.
-- Perhitungan umur secara real-time.
-- Menampilkan:
-  - Hari lahir
-  - Bulan lahir
-  - Umur dalam hari
-  - Umur dalam tahun
-- Animasi loading dan efek visual.
+**https://github.com/Z8Sa/hitung-umur**
 
 ---
 
-📁 Struktur Proyek
+## ✨ Fitur
 
-hitung_umur/
+### Versi Python
+
+* Input tanggal lahir melalui terminal
+* Menghitung umur dalam hari
+* Menghitung umur dalam tahun
+* Menampilkan informasi:
+
+  * Hari lahir
+  * Bulan lahir
+  * Tanggal hari ini
+* Tampilan terminal berwarna menggunakan ANSI Escape Code
+
+### Versi Web
+
+* Antarmuka modern dan responsif
+* Validasi input otomatis
+* Pengecekan tanggal tidak valid
+* Loading animation
+* Error handling
+* Tampilan hasil bergaya terminal
+* Mendukung perangkat desktop dan mobile
+
+---
+
+## 📂 Struktur Project
+
+```text
+hitung-umur/
 │
-├── main.py          # Versi Python
-├── index.html       # Versi Web
+├── main.py
+├── index.html
 └── README.md
+```
 
 ---
 
-🛠 Teknologi yang Digunakan
+## 🐍 Menjalankan Versi Python
 
-Backend / CLI
+Pastikan Python sudah terinstall.
 
-- Python 3
-- Module datetime
+Cek versi Python:
 
-Frontend
+```bash
+python --version
+```
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+Jalankan program:
 
+```bash
+python main.py
+```
+
+Contoh:
+
+```text
+Masukkan tanggal lahir: 15
+Masukkan bulan lahir: 8
+Masukkan tahun lahir: 2007
+```
+
+---
+
+## 🌐 Menjalankan Versi Web
+
+Buka file:
+
+```text
+index.html
+```
+
+langsung menggunakan browser.
+
+Atau gunakan VS Code:
+
+1. Install Extension **Live Server**
+2. Klik kanan `index.html`
+3. Pilih **Open with Live Server**
+
+---
+
+## 🛠 Teknologi yang Digunakan
+
+### Backend / Console
+
+* Python 3
+* Datetime Module
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+---
+
+## 📊 Contoh Output
+
+```text
+Tanggal Lahir : 2008-08-7
+Hari Lahir    : Wednesday
+Hari Ini      : Monday
+
+Umur dalam Hari  : 6521 hari
+Umur dalam Tahun : 17 Tahun
+```
+
+---
+
+## 🎯 Tujuan Project
+
+Project ini dibuat untuk:
+
+* Belajar Python dasar
+* Belajar manipulasi tanggal dan waktu
+* Belajar validasi input pengguna
+* Belajar JavaScript DOM
+* Belajar membuat antarmuka web sederhana
+
+---
+
+## 👨‍💻 Author
+
+**Ares**
+
+Backend Developer & AI Automation Builder
+
+GitHub:
+https://github.com/Z8Sa
+
+---
+
+## 📜 License
+
+Project ini bersifat open-source dan bebas digunakan untuk pembelajaran.
 ---
 
 🚀 Menjalankan Versi Python
